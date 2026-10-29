@@ -1,49 +1,37 @@
-# HR Employee Analysis - Excel
+# HR Employee Attrition Analysis (Excel)
 
-An HR data analysis project using Microsoft Excel to explore workforce trends, attrition patterns, salary distribution, and performance ratings.
+An HR analytics project created in Microsoft Excel to analyze employee turnover, job satisfaction, and salary distribution using the IBM HR Analytics dataset.
 
 ## Dashboard Preview
 
 ![HR Employee Analysis Dashboard](screenshots/dashboard_preview.jpg)
 
-## About the Project
+## Overview
 
-This project explores employee attrition and workforce patterns using the IBM HR Analytics Employee Attrition dataset from Kaggle. The analysis includes KPI metrics, department and job-role breakdowns, and an interactive dashboard built in Microsoft Excel.
+Employee turnover can be costly for organizations. In this project, I used Excel to analyze workforce data, identify key patterns behind attrition, and present the findings in a clear dashboard format.
 
-## Data Source
+## Dataset
 
-Dataset: [IBM HR Analytics Employee Attrition & Performance - Kaggle](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset)
+- **Source:** IBM HR Analytics Employee Attrition & Performance dataset from [Kaggle](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset)
+- **Size:** 1,470 employee records with 35 attributes (department, job role, monthly income, overtime, satisfaction ratings, etc.)
+- The full raw data is saved in `data/employee_data.csv`.
 
-The `data/employee_data.csv` file contains the complete dataset of 1,470 employee records.
+## Excel Features Used
 
-## Tools and Features Used
+- **Pivot Tables:** Summarizing headcount and attrition by department, job role, and experience level
+- **Formulas:** `COUNTIF`, `AVERAGEIF`, `SUMIF`, `IF` for calculating dynamic rates and KPI totals
+- **Charts:** Clustered column charts for department-wise comparisons and pie charts for overall turnover split
+- **Formatting:** Clean gridlines, KPI card highlights, and currency/percentage formatting
 
-- Microsoft Excel (Office 365)
-- Pivot Tables & Summary Analysis
-- Clustered Column & Pie Charts
-- KPI Cards & Conditional Formatting
-- Formulas: COUNTIF, AVERAGEIF, SUMIF, IF
+## Key Insights
 
-## Key Insights Covered
+- **Overall Turnover:** Out of 1,470 employees, 237 left the company, representing an attrition rate of approximately 16.1%.
+- **Impact of OverTime:** Employees who worked overtime had a significantly higher attrition rate (over 30%) compared to those who did not.
+- **Roles with High Turnover:** Sales Representatives and Laboratory Technicians showed the highest turnover percentages.
+- **Tenure:** Employees in their first 1-2 years with their current manager were more likely to leave compared to tenured staff.
 
-- Overall attrition rate across 1,470 employees
-- Department-wise headcount and turnover rates (R&D, Sales, HR)
-- High-attrition job roles vs stable roles
-- Impact of OverTime on employee turnover
-- Salary and work-life balance comparison
+## Files in this Repo
 
-## Project Structure
-
-```
-HR-Employee-Analysis-Excel/
-|-- data/
-|   |-- employee_data.csv
-|-- screenshots/
-|   |-- dashboard_preview.jpg
-|-- HR_Employee_Attrition_Analysis.xlsx
-|-- README.md
-```
-
-## How to View
-
-You can download `HR_Employee_Attrition_Analysis.xlsx` to view the full interactive dashboard, pivot summaries, and underlying formulas in Microsoft Excel.
+- `HR_Employee_Attrition_Analysis.xlsx` - The complete Excel workbook with raw data, pivot summaries, and dashboard charts
+- `data/employee_data.csv` - The full Kaggle CSV dataset
+- `screenshots/dashboard_preview.jpg` - Screenshot of the final dashboard layout
