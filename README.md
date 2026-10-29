@@ -8,42 +8,42 @@ An HR data analysis project using Microsoft Excel to explore workforce trends, a
 
 ## About the Project
 
-This is a practice project based on the IBM HR Analytics Employee Attrition dataset from Kaggle. I used a sample of the data and analyzed it using Excel features like Pivot Tables, charts, and formulas to draw HR insights.
+This project explores employee attrition and workforce patterns using the IBM HR Analytics Employee Attrition dataset from Kaggle. The analysis includes KPI metrics, department and job-role breakdowns, and an interactive dashboard built in Microsoft Excel.
 
 ## Data Source
 
 Dataset: [IBM HR Analytics Employee Attrition & Performance - Kaggle](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset)
 
-The data/employee_data.csv file in this repo is a cleaned sample (16 records) used for this project.
+The `data/employee_data.csv` file contains the complete dataset of 1,470 employee records.
 
 ## Tools and Features Used
 
-- Microsoft Excel (2019 / Office 365)
-- Pivot Tables
-- Bar, Pie, and Line Charts
-- Conditional Formatting
-- COUNTIF, AVERAGEIF, IF formulas
+- Microsoft Excel (Office 365)
+- Pivot Tables & Summary Analysis
+- Clustered Column & Pie Charts
+- KPI Cards & Conditional Formatting
+- Formulas: COUNTIF, AVERAGEIF, SUMIF, IF
 
-## What the Analysis Covers
+## Key Insights Covered
 
-- Department-wise headcount
-- Gender distribution
-- Attrition analysis (who left and why)
-- Salary and job level breakdown
-- Performance rating summary
-- Work-life balance vs attrition
+- Overall attrition rate across 1,470 employees
+- Department-wise headcount and turnover rates (R&D, Sales, HR)
+- High-attrition job roles vs stable roles
+- Impact of OverTime on employee turnover
+- Salary and work-life balance comparison
 
 ## Project Structure
 
-`
+```
 HR-Employee-Analysis-Excel/
 |-- data/
 |   |-- employee_data.csv
 |-- screenshots/
 |   |-- dashboard_preview.jpg
+|-- HR_Employee_Attrition_Analysis.xlsx
 |-- README.md
-`
+```
 
-## Note
+## How to View
 
-The .xlsx Excel workbook is not uploaded here. The dashboard screenshot above shows the final output of the analysis.
+You can download `HR_Employee_Attrition_Analysis.xlsx` to view the full interactive dashboard, pivot summaries, and underlying formulas in Microsoft Excel.
