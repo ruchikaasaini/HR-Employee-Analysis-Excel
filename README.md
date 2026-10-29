@@ -1,97 +1,45 @@
-# 📗 HR Employee Analysis — Microsoft Excel
+# HR Employee Analysis - Excel
 
-A comprehensive **HR Data Analysis project** using Microsoft Excel featuring Pivot Tables, Charts, Conditional Formatting, and an interactive Dashboard.
+An HR data analysis project created in Microsoft Excel to understand workforce trends, salary distribution, attrition patterns, and performance ratings.
 
----
+## About the Project
 
-## 🚀 Project Overview
+This was a practice project where I analyzed a sample HR dataset of 20 employees using Excel features like Pivot Tables, charts, and basic formulas. The goal was to derive useful insights that an HR team might need.
 
-This project analyzes employee data to help HR teams understand:
-- 👥 Workforce Composition (Department, Gender, Age)
-- 💼 Salary Distribution & Trends
-- 📉 Attrition & Retention Analysis
-- ⭐ Performance Rating Breakdown
-- 🏖️ Leave & Attendance Summary
+## Tools and Features Used
 
----
+- Microsoft Excel (2019 / Office 365)
+- Pivot Tables
+- Charts (Bar, Pie, Line)
+- Conditional Formatting
+- COUNTIF, AVERAGEIF, IF formulas
+- Data Validation (dropdowns)
 
-## 🛠️ Tools & Features Used
+## What the Analysis Covers
 
-| Feature | Purpose |
-|---------|---------|
-| Pivot Tables | Data Summarization |
-| Charts & Graphs | Visual Analysis |
-| Conditional Formatting | Highlight Key Metrics |
-| VLOOKUP / XLOOKUP | Data Joining |
-| IF / COUNTIF / AVERAGEIF | KPI Formulas |
-| Data Validation | Dropdown Filters |
-| Dashboard Sheet | Executive Summary View |
+- Department-wise headcount
+- Gender distribution
+- Salary range and averages
+- Attrition rate (who left the company)
+- Performance rating summary
+- Leaves taken per employee
 
----
-
-## 📁 Project Structure
+## Project Structure
 
 `
 HR-Employee-Analysis-Excel/
-├── data/
-│   └── employee_data.csv      # Raw HR dataset
-├── excel/
-│   └── HR_Analysis.xlsx       # Main Excel workbook
-├── screenshots/
-│   └── dashboard_preview.png
-└── README.md
+|-- data/
+|   |-- employee_data.csv
+|-- README.md
 `
 
----
+## Dataset
 
-## 📊 Key Insights from Analysis
+The employee_data.csv file has 20 employee records with columns: Emp_ID, Name, Department, Gender, Age, Salary, Join_Date, Performance_Rating, Attrition, Leaves_Taken.
 
-| Metric | Value |
-|--------|-------|
-| Total Employees | 150 |
-| Average Salary | ₹52,000/month |
-| Attrition Rate | 12.6% |
-| Avg Performance Rating | 3.6 / 5 |
-| Largest Department | IT (38 employees) |
+## How to Use
 
----
-
-## 📋 Excel Sheets Breakdown
-
-1. **Raw Data** — Original employee dataset
-2. **Pivot Analysis** — Department, gender, salary pivots
-3. **Attrition Analysis** — Who left and why
-4. **Performance** — Rating distribution by department
-5. **Dashboard** — Summary with charts and KPIs
-
----
-
-## 📂 Dataset Columns
-
-| Column | Description |
-|--------|-------------|
-| Emp_ID | Employee ID |
-| Name | Employee Name |
-| Department | Department |
-| Gender | Male / Female |
-| Age | Age in Years |
-| Salary | Monthly Salary (INR) |
-| Join_Date | Joining Date |
-| Performance_Rating | 1 to 5 |
-| Attrition | Yes / No |
-| Leaves_Taken | Annual Leaves |
-
----
-
-## 🔧 How to Use
-
-1. Download excel/HR_Analysis.xlsx
-2. Open in **Microsoft Excel 2016 or later**
-3. Enable editing if prompted
-4. Use slicers on Dashboard to filter by Department or Year
-
----
-
-## 👩‍💻 Author
-
-**Ruchika Saini** | Business Analyst | Jaipur, Rajasthan
+1. Download the repository
+2. Open employee_data.csv in Excel
+3. Use Insert > Pivot Table to start analyzing
+4. Apply charts on top of the pivot tables for visuals
