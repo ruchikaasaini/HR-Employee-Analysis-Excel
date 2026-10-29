@@ -1,6 +1,6 @@
 # HR Employee Analysis - Excel
 
-An HR data analysis project created in Microsoft Excel to understand workforce trends, attrition patterns, salary distribution, and performance ratings.
+An HR data analysis project using Microsoft Excel to explore workforce trends, attrition patterns, salary distribution, and performance ratings.
 
 ## Dashboard Preview
 
@@ -8,17 +8,19 @@ An HR data analysis project created in Microsoft Excel to understand workforce t
 
 ## About the Project
 
-This was a practice project where I analyzed a sample of the IBM HR Analytics Employee Attrition dataset using Excel. The goal was to derive useful HR insights using Pivot Tables, charts, and basic Excel formulas.
+This is a practice project based on the IBM HR Analytics Employee Attrition dataset from Kaggle. I used a sample of the data and analyzed it using Excel features like Pivot Tables, charts, and formulas to draw HR insights.
 
 ## Data Source
 
 Dataset: [IBM HR Analytics Employee Attrition & Performance - Kaggle](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset)
 
+The data/employee_data.csv file in this repo is a cleaned sample (16 records) used for this project.
+
 ## Tools and Features Used
 
 - Microsoft Excel (2019 / Office 365)
 - Pivot Tables
-- Charts (Bar, Pie, Line)
+- Bar, Pie, and Line Charts
 - Conditional Formatting
 - COUNTIF, AVERAGEIF, IF formulas
 
@@ -42,9 +44,6 @@ HR-Employee-Analysis-Excel/
 |-- README.md
 `
 
-## How to Use
+## Note
 
-1. Download the repository
-2. Open employee_data.csv in Excel
-3. Use Insert > Pivot Table to start analyzing
-4. Apply charts on top of pivot tables for visuals
+The .xlsx Excel workbook is not uploaded here. The dashboard screenshot above shows the final output of the analysis.
