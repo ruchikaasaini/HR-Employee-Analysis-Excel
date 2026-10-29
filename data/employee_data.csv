@@ -1,0 +1,21 @@
+Emp_ID,Name,Department,Gender,Age,Salary,Join_Date,Performance_Rating,Attrition,Leaves_Taken
+E001,Priya Sharma,IT,Female,28,55000,2021-06-01,4,No,8
+E002,Rahul Verma,HR,Male,34,42000,2019-03-15,3,No,12
+E003,Anjali Singh,Finance,Female,30,60000,2020-08-10,5,No,6
+E004,Mohit Gupta,IT,Male,26,48000,2022-01-20,3,Yes,15
+E005,Sneha Patel,Marketing,Female,32,45000,2018-11-05,4,No,9
+E006,Vikram Joshi,IT,Male,29,62000,2021-04-12,4,No,7
+E007,Pooja Mehta,HR,Female,27,38000,2023-02-01,3,No,10
+E008,Arjun Rao,Finance,Male,35,72000,2017-07-22,5,No,5
+E009,Kavita Nair,Marketing,Female,31,43000,2020-09-30,2,Yes,18
+E010,Saurabh Tiwari,IT,Male,33,58000,2019-05-14,4,No,8
+E011,Neha Agarwal,Finance,Female,29,65000,2021-10-08,5,No,4
+E012,Amit Sharma,IT,Male,27,50000,2022-06-15,3,No,11
+E013,Ritu Yadav,HR,Female,36,40000,2016-12-01,2,Yes,20
+E014,Deepak Kumar,Marketing,Male,30,47000,2020-03-25,4,No,9
+E015,Shruti Mishra,IT,Female,28,55000,2021-08-18,4,No,7
+E016,Rajesh Chauhan,Finance,Male,42,85000,2014-01-10,5,No,3
+E017,Meena Saxena,HR,Female,38,44000,2017-06-30,3,No,13
+E018,Ashish Pandey,IT,Male,25,46000,2023-07-01,3,Yes,14
+E019,Sunita Rawat,Marketing,Female,33,49000,2019-11-20,4,No,8
+E020,Gaurav Soni,Finance,Male,31,67000,2020-04-05,4,No,6
