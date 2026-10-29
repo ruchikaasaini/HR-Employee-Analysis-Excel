@@ -2,6 +2,10 @@
 
 An HR data analysis project created in Microsoft Excel to understand workforce trends, salary distribution, attrition patterns, and performance ratings.
 
+## Dashboard Preview
+
+![HR Employee Analysis Dashboard](screenshots/dashboard_preview.jpg)
+
 ## About the Project
 
 This was a practice project where I analyzed a sample HR dataset of 20 employees using Excel features like Pivot Tables, charts, and basic formulas. The goal was to derive useful insights that an HR team might need.
@@ -13,7 +17,6 @@ This was a practice project where I analyzed a sample HR dataset of 20 employees
 - Charts (Bar, Pie, Line)
 - Conditional Formatting
 - COUNTIF, AVERAGEIF, IF formulas
-- Data Validation (dropdowns)
 
 ## What the Analysis Covers
 
@@ -22,16 +25,17 @@ This was a practice project where I analyzed a sample HR dataset of 20 employees
 - Salary range and averages
 - Attrition rate (who left the company)
 - Performance rating summary
-- Leaves taken per employee
 
 ## Project Structure
 
-`
+```
 HR-Employee-Analysis-Excel/
 |-- data/
 |   |-- employee_data.csv
+|-- screenshots/
+|   |-- dashboard_preview.jpg
 |-- README.md
-`
+```
 
 ## Dataset
 
